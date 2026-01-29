@@ -33,11 +33,11 @@ extra_skills = resume_skills - job_skills
 
 match_percentage = (len(matched_skills) / len(job_skills)) * 100
 
-print("✅ Resume Skills:", resume_skills)
-print("📌 Job Required Skills:", job_skills)
+print("Resume Skills:", resume_skills)
+print("Job Required Skills:", job_skills)
 
-print("\n✅ Matched Skills:", matched_skills)
-print("❌ Missing Skills (Skill Gap):", missing_skills)
-print("➕ Extra Skills:", extra_skills)
+print("\nMatched Skills:", matched_skills)
+print("Missing Skills (Skill Gap):", missing_skills)
+print("Extra Skills:", extra_skills)
 
-print(f"\n📊 Match Percentage: {match_percentage:.2f}%")
+print(f"\n match percentage: {match_percentage:.2f}%")
